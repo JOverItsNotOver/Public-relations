@@ -64,12 +64,17 @@ body {
     
     min-height: 740px;
 
-    background: rgb(215, 215, 215);
+    background-image: url("../images/menu_bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+    /*background: rgb(215, 215, 215);
     background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 500, from(rgb(240, 240, 240)), to(rgb(190, 190, 190)));
     background: -webkit-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
     background:    -moz-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
     background:      -o-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
-    background:         radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
+    background:         radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));*/
 
     -webkit-font-smoothing: antialiased;
 }
@@ -131,6 +136,10 @@ h1 {
     font-size: 100px;
 }
 
+h2 {
+    font-size: 60px;
+}
+
 /* fade out inactive slides */
 .step:not(.active) {
     opacity: 0.3;
@@ -190,6 +199,7 @@ h1 {
 
 #title {
     padding: 0;
+    background: url("../images/jover-logo.png") center 100px no-repeat;
 }
 
 #title .try {
@@ -242,7 +252,8 @@ h1 {
 #Zuhoerer1,
 #Zuhoerer2,
 #Zuhoerer3,
-#Zuhoerer4 {
+#Zuhoerer4,
+#WasSindOverrides{
     text-align: center;
 }
 
