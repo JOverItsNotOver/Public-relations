@@ -41,8 +41,11 @@ footer, header, hgroup, menu, nav, section {
 body {
     line-height: 1;
 }
-ol, ul {
+ol {
     list-style: none;
+}
+ul{
+    list-style-type: disc;
 }
 blockquote, q {
     quotes: none;
@@ -83,23 +86,14 @@ b, strong { font-weight: bold }
 i, em { font-style: italic}
 
 a {
-    color: inherit;
+    color: #fc8f30;
     text-decoration: none;
     padding: 0 0.1em;
-    background: rgba(255,255,255,0.5);
-    text-shadow: -1px -1px 2px rgba(100,100,100,0.9);
-    border-radius: 0.2em;
-    
-    -webkit-transition: 0.5s;
-    -moz-transition:    0.5s;
-    -ms-transition:     0.5s;
-    -o-transition:      0.5s;
-    transition:         0.5s;
 }
 
-a:hover {
-    background: rgba(255,255,255,1);
-    text-shadow: -1px -1px 2px rgba(100,100,100,0.5);
+a:hover,
+a:focus {
+    text-decoration: underline;
 }
 
 /* enable clicking on elements 'hiding' behind body in 3D */
@@ -246,6 +240,15 @@ h2 {
 #Sven ul > ul {
     list-style-type: circle;
     margin-left: 25px;
+}
+/* Viviana */
+#Viviana {
+    background: url("../images/Viviana.jpg") no-repeat right 190px;
+    font-size: 40px;
+}
+#Viviana ul{
+    width: 600px;
+    list-style-type: disc;
 }
 
 /* Zuhoerer */
