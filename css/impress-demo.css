@@ -188,7 +188,24 @@ h2 {
     -o-transform:      translateY(0px);
     transform:         translateY(0px);
 }
-
+.small {
+	font-size: 14px;
+}
+pre {
+    display: block;
+    font-family: monospace;
+	white-space: -moz-pre-wrap !important;
+	white-space: -pre-wrap;
+	white-space: -o-pre-wrap;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+    margin: 1em 0;
+	font-size: 14px;
+}
+sup { 
+    vertical-align: super;
+    font-size: smaller;
+}
 /* impress.js title */
 
 #title {
@@ -249,6 +266,9 @@ h2 {
 #Viviana ul{
     width: 600px;
     list-style-type: disc;
+}
+#Inspiration1 {
+    background: url("../images/events.png") no-repeat right 190px;
 }
 
 /* Zuhoerer */
