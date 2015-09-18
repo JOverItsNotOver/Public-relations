@@ -114,7 +114,7 @@ body     { pointer-events: none; }
 
     font-family: 'PT Serif', georgia, serif;
 
-    font-size: 48px;
+    font-size: 45px;
     line-height: 1.5;
 }
 
@@ -286,15 +286,19 @@ sup {
 #WasSindSprachOverrides{
     text-align: center;
 }
-#danke { 
-	width: 500px;
-	font-size: 100px;
+#danke,
+#Fragen{
+	/*width: 500px;*/
+    text-align: center;
+    font-size: 100px;
 }
+
 
 /*
     ... so we define display to `inline-block` to enable transforms and
     transition duration to 0.5s ...
 */
+#Fragen b,
 #danke b {
     display: inline-block;
     -webkit-transition: 0.5s;
@@ -303,6 +307,7 @@ sup {
     -o-transition:      0.5s;
     transition:         0.5s;
 }
+#Fragen.present .scaling,
 #danke.present .scaling {
     -webkit-transform: scale(2.7);
     -moz-transform:    scale(2.7);
